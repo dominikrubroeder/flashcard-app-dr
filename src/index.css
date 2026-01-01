@@ -25,13 +25,13 @@
   --color-neutral-100: hsl(24, 40%, 95%);
   --color-neutral-600: hsl(25, 17%, 36%);
   --color-neutral-900: hsl(24, 96%, 9%);
-  --color-yellow-500: hsl(43, 93%, 63%);
-  --color-blue-400: hsl(221, 68%, 75%);
-  --color-blue-600: hsl(222, 52%, 55%);
-  --color-teal-400: hsl(173, 66%, 57%);
-  --color-pink-400: hsl(314, 94%, 76%);
-  --color-pink-500: hsl(337, 80%, 70%);
-  --color-pink-700: hsl(336, 79%, 49%);
+  --color-accent-yellow-500: hsl(43, 93%, 63%);
+  --color-accent-blue-400: hsl(221, 68%, 75%);
+  --color-accent-blue-600: hsl(222, 52%, 55%);
+  --color-accent-teal-400: hsl(173, 66%, 57%);
+  --color-accent-pink-400: hsl(314, 94%, 76%);
+  --color-accent-pink-500: hsl(337, 80%, 70%);
+  --color-accent-pink-700: hsl(336, 79%, 49%);
 
   --font-poppins-bold: Poppins Bold, sans-serif;
   --font-poppins-semibold: Poppins SemiBold, sans-serif;

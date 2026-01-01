@@ -1,9 +1,15 @@
 import "./App.css";
+import { Header } from "./components/header.tsx";
+import { Button } from "./components/button.tsx";
+import { CirclePlusIcon } from "./components/icon";
 
 function App() {
   return (
     <>
-      <h1 className="text-preset-1">Hello, world!</h1>
+      <Header />
+      <Button variant="primary">
+        <CirclePlusIcon /> I Know This
+      </Button>
     </>
   );
 }

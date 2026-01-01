@@ -1,1 +1,89 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("assets/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("assets/fonts/Poppins-Regular.ttf");
+}
+
+@theme {
+  --color-neutral-0: hsl(0, 0%, 100%);
+  --color-neutral-100: hsl(24, 40%, 95%);
+  --color-neutral-600: hsl(25, 17%, 36%);
+  --color-neutral-900: hsl(24, 96%, 9%);
+  --color-yellow-500: hsl(43, 93%, 63%);
+  --color-blue-400: hsl(221, 68%, 75%);
+  --color-blue-600: hsl(222, 52%, 55%);
+  --color-teal-400: hsl(173, 66%, 57%);
+  --color-pink-400: hsl(314, 94%, 76%);
+  --color-pink-500: hsl(337, 80%, 70%);
+  --color-pink-700: hsl(336, 79%, 49%);
+
+  --font-poppins-bold: Poppins Bold, sans-serif;
+  --font-poppins-semibold: Poppins SemiBold, sans-serif;
+  --font-poppins-medium: Poppins Medium, sans-serif;
+  --font-poppins-regular: Poppins Regular, sans-serif;
+
+  --radius-0: 0;
+  --radius-4: 1rem;
+  --radius-6: 1.25rem;
+  --radius-8: 2rem;
+  --radius-10: 2.5rem;
+  --radius-12: 3rem;
+  --radius-16: 4rem;
+  --radius-20: 5rem;
+  --radius-24: 6rem;
+  --radius-full: 9999px;
+}
+
+@layer components {
+  .text-preset-1 {
+    @apply font-poppins-bold text-2xl leading-[1.2] md:text-[2rem] lg:text-[2.5rem];
+  }
+
+  .text-preset-2 {
+    @apply font-poppins-semibold text-2xl leading-[1.2];
+  }
+
+  .text-preset-3 {
+    @apply font-poppins-semibold text-xl leading-[1.2];
+  }
+
+  .text-preset-4-semibold {
+    @apply font-poppins-semibold text-base leading-[1.2];
+  }
+
+  .text-preset-4-medium {
+    @apply font-poppins-medium text-base leading-[1.2];
+  }
+
+  .text-preset-4-regular {
+    @apply font-poppins-regular text-base leading-[1.4];
+  }
+
+  .text-preset-5 {
+    @apply font-poppins-medium text-sm leading-[1.4];
+  }
+
+  .text-preset-5-regular {
+    @apply font-poppins-regular text-sm leading-[1.4];
+  }
+
+  .text-preset-6 {
+    @apply font-poppins-medium text-xs leading-[1.3] tracking-[-3%];
+  }
+}

@@ -12,6 +12,7 @@
     "upgrade-tailwindcss-devtools@latest": "npm i prettier-plugin-tailwindcss@latest @tailwindcss/postcss@latest eslint-plugin-tailwindcss@beta --save-dev --save-exact && npm i tailwind-merge@latest tw-animate-css@latest --save-exact"
   },
   "dependencies": {
+    "@base-ui/react": "^1.0.0",
     "@tailwindcss/vite": "4.1.18",
     "clsx": "2.1.1",
     "react": "^19.2.0",

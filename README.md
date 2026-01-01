@@ -1,4 +1,6 @@
 ![Preview](src/assets/preview.jpg)
+*Preview of frontend coding challenge
+at [https://www.frontendmentor.io/challenges/flashcard-app](https://www.frontendmentor.io/challenges/flashcard-app)*
 
 # React + TypeScript + Vite
 
